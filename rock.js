@@ -11,7 +11,7 @@ class SRock {
         this.r = r;
         this.body = Matter.Bodies.circle(this.x, this.y, (this.r-20)/2, SRockOptions);
     
-        this.image = loadImage("Images/rock.png");
+        this.image = loadImage("rock.png");
 
         World.add(world, this.body);
     }

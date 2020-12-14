@@ -14,8 +14,8 @@
     var ChainHand;
 
 function preload() {
-    treeImage = loadImage("Images/tree.png");
-    junoImage = loadImage("Images/hooman.png");
+    treeImage = loadImage("tree.png");
+    junoImage = loadImage("hooman.png");
     //sunImage = loadImage("Images/OhnoSun.png");
 }
 
